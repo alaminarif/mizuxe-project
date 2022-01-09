@@ -1,0 +1,74 @@
+body {
+margin-top: 90px;
+}
+.navbar {
+	box-shadow: 2px 2px 5px;
+	background: #fff;
+	opacity: 0.9
+}
+.nav-link {
+	padding-right: 20px !important;
+	font-size: 1.4rem;
+	color: #252525 !important;
+}
+.nav-link:last-child {
+	padding-right: 0px;
+
+}
+#home-section {
+	position: relative;
+	background-image: url('img/adult-blur-camera-dirt-road-610293.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 700px;
+
+}
+#home-section .btn {
+	border-radius: none !important;
+}
+
+#boxes .card {
+	border: 1px solid rgba(50, 146, 156, 0.7);
+}
+.Card2 {
+	background: rgba(50, 146, 156, 0.7);
+}
+.primary-overlay {
+	background: rgba(50, 146, 156, 0.7);
+	min-height: 700px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.Meet {
+	color: rgba(50, 146, 156, 0.7);
+}
+.Buttonr {
+	background: rgba(50, 146, 156, 0.7);
+}
+
+#arthur img {
+	margin-top: -50px;
+}
+#arthur .fa {
+	font-size: 25px;
+
+}
+#arthur .fa:hover {
+	background: #fff;
+}
+
+#arthur .card:hover {
+	background: rgba(50, 146, 156, 0.7);
+	color: #fff;
+}
+footer {
+	background: rgba(50, 146, 156, 0.7);
+}
+ @media and all(max-width: 576px){
+	#home-section .h1 {
+		font-size: 3rem !important; 
+	}
+ }
